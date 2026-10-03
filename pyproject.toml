@@ -14,7 +14,7 @@ dependencies = [
 requires-python = ">=3.10"
 
 [project.urls]
-Repository = "https://github.com/REPLACE_OWNER/ComfyUI-AudioQC"
+Repository = "https://github.com/11ixu/ComfyUI-AudioQC"
 
 [tool.comfy]
 PublisherId = "REPLACE_PUBLISHER_ID"

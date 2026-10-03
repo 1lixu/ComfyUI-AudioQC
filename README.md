@@ -13,7 +13,7 @@
 
 ```
 cd ComfyUI/custom_nodes
-git clone https://github.com/REPLACE_OWNER/ComfyUI-AudioQC.git
+git clone https://github.com/11ixu/ComfyUI-AudioQC.git
 pip install -r ComfyUI-AudioQC/requirements.txt
 ```
 
