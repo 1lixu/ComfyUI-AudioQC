@@ -1,0 +1,22 @@
+[build-system]
+requires = ["build"]
+build-backend = "build"
+
+[project]
+name = "comfyui-audioqc"
+version = "0.1.0"
+description = "配音出厂质检闸 AudioQC：逐句语速/杂声(no_speech)/吞字对账/太平提示，PASS-FAIL-WARN 判决+JSON 报告。Pass-by-door QC gate for TTS/dubbing audio in ComfyUI."
+license = { file = "LICENSE" }
+dependencies = [
+  "faster-whisper>=1.0.0",
+  "numpy",
+]
+requires-python = ">=3.10"
+
+[project.urls]
+Repository = "https://github.com/REPLACE_OWNER/ComfyUI-AudioQC"
+
+[tool.comfy]
+PublisherId = "REPLACE_PUBLISHER_ID"
+DisplayName = "AudioQC 配音出厂质检闸"
+Icon = ""
