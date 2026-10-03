@@ -17,6 +17,6 @@ requires-python = ">=3.10"
 Repository = "https://github.com/1lixu/ComfyUI-AudioQC"
 
 [tool.comfy]
-PublisherId = "REPLACE_PUBLISHER_ID"
+PublisherId = "lingxi"
 DisplayName = "AudioQC 配音出厂质检闸"
 Icon = ""
